@@ -24,7 +24,7 @@ SECRET_KEY = 'll_6@mme89*o#z##q7s_hh7g+wvs0f%8^_or_z*$c@nbi(#1!7'
 
 #When debug is False, you need to provide allowed host
 DEBUG = True
-ALLOWED_HOSTS = ['enigmatic-spire-36457.herokuapp.com/', '127.1.1.0', '0.0.0.0']
+ALLOWED_HOSTS = ['enigmatic-spire-36457.herokuapp.com', '127.1.1.0', '0.0.0.0']
 
 # Application definition
 
