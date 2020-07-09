@@ -80,7 +80,7 @@ import dj_database_url
 ON_HEROKU = os.environ.get('ON_HEROKU')
 
 if ON_HEROKU:
-    DATABASE_URL = 'mysql://ba362fb71ff9c4:bed2cb4f@us-cdbr-east-02.cleardb.com/heroku_7ff375b328a4a5d?reconnect=true'
+    DATABASE_URL = 'postgres://ekeebibvgwckgz:ccbd989e7718709aa9cd1e80af73f4f499c0718f8733ac4b4de97716b1433eea@ec2-34-239-241-25.compute-1.amazonaws.com:5432/d3idmeo4f63tbs'
 else:
     DATABASE_URL = 'sqlite:///' + os.path.join(BASE_DIR, 'db.sqlite3')
 
