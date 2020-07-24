@@ -24,11 +24,10 @@ db.sqlite3
 web.config
 
 # for this project only
-/hololink/secret/
-/hololink/static/
-/hololink/nginx/
-/hololink/uwsgi/
+
+
 
 # ubuntu 20.04 things
 share/python-wheels/ 
 /lib64
+
