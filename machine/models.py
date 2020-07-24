@@ -15,5 +15,12 @@ class Machine(models.Model):
         max_length=262144,
         blank=True,
     )
+
+    slug = models.SlugField(
+        unique=True, 
+        null=True, 
+        blank=True, 
+        max_length=255
+    )
     
     #diagram = models.ImageField()

@@ -43,6 +43,13 @@ class Company(models.Model):
         verbose_name=_('Applications'),
         blank=True,
     )
+
+    slug = models.SlugField(
+        unique=True, 
+        null=True, 
+        blank=True, 
+        max_length=255
+    )
     
     #diagram = models.ImageField()
 

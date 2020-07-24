@@ -25,4 +25,11 @@ class Application(models.Model):
         blank=True,
     )
 
+    slug = models.SlugField(
+        unique=True, 
+        null=True, 
+        blank=True, 
+        max_length=255
+    )
+
     #diagram = models.ImageField()
