@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'accounts.apps.AccountsConfig',
     'company.apps.CompanyConfig',
     'application.apps.ApplicationConfig',
+    'industry.apps.IndustryConfig',
     'machine.apps.MachineConfig',
     'django.contrib.admin',
     'django.contrib.auth',
