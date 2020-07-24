@@ -38,7 +38,7 @@ class Industry(models.Model):
     )
 
     company = models.ManyToManyField(
-        Application,
+        Company,
         related_name='Industries_company',
         verbose_name=_('Companys'),
         blank=True,
