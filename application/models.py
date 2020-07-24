@@ -21,7 +21,7 @@ class Application(models.Model):
     machine = models.ManyToManyField(
         Machine,
         related_name='applications',
-        verbose_name=_('Applications'),
+        verbose_name=_('Machines'),
         blank=True,
     )
 

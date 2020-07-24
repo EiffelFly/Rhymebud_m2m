@@ -7,10 +7,10 @@ class CompanyAdmin(admin.ModelAdmin):
 
     # We don't display all the company_website
     def from_url_shortcut(self, obj):
-        if len(obj.from_url) > 64:
-            return f'{obj.from_url[:64]} ...'
+        if len(obj.company_website) > 64:
+            return f'{obj.company_website[:64]} ...'
         else:
-            return obj.from_url
+            return obj.company_website
 
 
 admin.site.register(Company, CompanyAdmin)
